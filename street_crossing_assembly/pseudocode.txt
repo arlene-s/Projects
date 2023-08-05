@@ -1,0 +1,36 @@
+	PSEUDOCODE FOR STREET CROSSING GAME
+
+	// button set to input
+	// red set to output
+	// green set to output
+	// yellow set to output
+	// rgb red to output
+	// rgb green to output
+
+	// set green led ON
+
+	// if button is pressed, turn off green light
+	// turn on yellow for 2 seconds
+	// turn on red light
+
+	// turn on rgb green
+	// turn on for 3 seconds
+	// turn on rgb red
+	// turn on for 1 second
+	// turn on 4 times
+	// set rgb red to on
+
+	// turn on green led
+
+
+	*** what im expecting to happen ***
+		
+	// green and rgb red will be on once program is on
+	// when button is pressed, yellow will be on for 2 sec
+	// then turn off
+	// then red will stay on
+	// rbg green will turn on, for 2 sec
+	// blink red 4 times
+	// turn red
+	// green turns on
+	// loop 4 times
