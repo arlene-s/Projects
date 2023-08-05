@@ -1,0 +1,19 @@
+Script started on 2023-03-04 22:49:13-08:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="103" LINES="37"]
+]0;007796562@csusb.edu@jb359-11:~/cse4600/hw2[007796562@csusb.edu@jb359-11 hw2]$ ./a.out
+myshell > listnewnames
+No new names to list.
+myshell > listnewnames arg
+No arguments expected.
+myshell > savenewnames
+expected argument to "savenewnames"
+myshell > readnewnames
+expected argument to "readnewnames"
+myshell > newname list ls
+myshell > savenewnames list.txt
+myshell > readnewnames notlist.txt
+ERROR opening file, no file with name notlist.txt
+myshell > exit    stop
+]0;007796562@csusb.edu@jb359-11:~/cse4600/hw2[007796562@csusb.edu@jb359-11 hw2]$ exu[Kit
+exit
+
+Script done on 2023-03-04 22:51:58-08:00 [COMMAND_EXIT_CODE="0"]
