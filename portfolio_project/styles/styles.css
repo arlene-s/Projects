@@ -40,7 +40,7 @@
 body {
   background-color: var(--color-primary);
   font-family: "Poppins", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--color-grey-1);
   transition: all 0.4s ease-in-out;
 }
@@ -247,7 +247,7 @@ section {
   grid-gap: 1rem;
 }
 .about-container .right-about h4 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 .about-container .right-about .about-item {
@@ -269,7 +269,7 @@ section {
 }
 .about-container .right-about .about-item .abt-text .large-text {
   align-items: center;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--color-secondary);
 }
@@ -277,7 +277,7 @@ section {
   padding-left: 5rem;
   position: relative;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--color-grey-2);
   letter-spacing: 2px;
 }
@@ -293,6 +293,7 @@ section {
 .about-container .right-about .about-item .abt-text .smaller-text {
   padding-left: 3rem;
   color: var(--color-grey-1);
+  font-size: 1.1rem;
 }
 .about-container .left-about {
   padding-right: 1rem;
@@ -301,10 +302,10 @@ section {
   line-height: 2rem;
   padding: 2.5rem;
   color: var(--color-grey-1);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .about-container .left-about h4 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -527,12 +528,13 @@ section {
 }
 .contact-content-con .left-contact h4 {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 .contact-content-con .left-contact p {
   margin: 1rem 0;
   line-height: 2rem;
+  font-size: 1.2rem;
 }
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
@@ -626,13 +628,12 @@ button {
 .btn-con {
   display: flex;
   align-self: flex-start;
-  padding: 0;
 }
 
 .main-btn {
   border-radius: 30px;
   margin-right: 40px;
-  margin-top: 50px;
+  margin-top: 10px;
   color: inherit;
   font-weight: 600;
   position: relative;
@@ -644,11 +645,12 @@ button {
   overflow: hidden;
 }
 .main-btn .btn-text {
-  padding: 0 2rem;
+  padding: 0 0.2rem;
   background-color: inherit;
   color: inherit;
   border: none;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
@@ -656,7 +658,7 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  padding: 1rem;
+  padding: 0.7rem;
 }
 .main-btn::before {
   content: "";
