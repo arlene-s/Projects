@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    align-items: center; /* align vertically in flex box */
+    justify-content: center; /* align horizontally */
+    height: 100vh;
+    margin: 0; /* remove margin */
+    font-family: 'VT323', monospace;
+}
+
+body,
+.snake {
+    background-color: #414141;
+}
+
+#game-board {
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: repeat(20, 20px); /* 20 columns 20px wide */
+    grid-template-rows: repeat(20, 20px); /* 20 rows 20px each */
+    margin: 5px;
+}
+
+.game-border-1 {
+    border: #595f43 solid 10px; /* outer border */
+    border-radius: 30px; /* make border a little round */
+    box-shadow: inset 0 0 0 10px #595f43; /* inside border, avoid gap btwn borders */
+}
+.game-border-2 {
+    border: #abb78a solid 8px; /* outer border */
+    border-radius: 26px; /* make border a little round */
+    box-shadow: inset 0 0 0 10px #abb78a; /* inside border, avoid gap btwn borders */
+}
+.game-border-3 {
+    border: #8b966c solid 30px; /* outer border */
+    border-radius: 20px; /* make border a little round */
+    box-shadow: inset 0 0 0 5px #8b966c; /* inside border, avoid gap btwn borders */
+}
+
+#instruction-text {
+    position: absolute;
+    top: 65%;
+    color: #333;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px;
+    margin: 0;
+}
+
+.scores {
+    display: flex; /* have scores next to each other */
+    justify-content: space-between; /* place at top corners of board */
+}
+
+#score {
+    color: #abb78a;
+}
+
+#score,
+#highScore {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+#highScore {
+    color: #d8ddca;
+    display: none; /* hide score at start of game */
+}
+
+.game-border-3,
+#logo {
+    background-color: #c4cfa3;
+}
+
+.snake {
+    border: #5a5a5a 1px dotted;
+}
+
+.food {
+    background-color: #dedede;
+    border: #999 5px solid;
+}
+
+#logo {
+    position: absolute;
+}
